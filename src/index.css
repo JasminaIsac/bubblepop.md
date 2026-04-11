@@ -1,0 +1,55 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500&f[]=satoshi@700,500,400&display=swap');
+@import "tailwindcss";
+
+/* ── Reset ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { margin: 0; padding: 0; width: 100%; }
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: #0a2551;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+/* ── Fonts ──────────────────────────────────────────── */
+.font-display { font-family: 'Cabinet Grotesk', sans-serif; }
+
+/* ── Glass morphism ─────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ── Animations ─────────────────────────────────────── */
+.bubble-float { animation: float 6s ease-in-out infinite; }
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50%       { transform: translateY(-24px) rotate(4deg); }
+}
+
+.pulse-glow { animation: pulse-glow 2s infinite; }
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(1, 79, 188, 0.5); }
+  50%       { box-shadow: 0 0 24px 8px rgba(1, 79, 188, 0.25); }
+}
+
+/* ── Card hover ─────────────────────────────────────── */
+.hover-card {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), background 0.4s, border-color 0.4s;
+}
+.hover-card:hover {
+  transform: translateY(-6px);
+  background: rgba(1, 79, 188, 0.08);
+  border-color: rgba(1, 79, 188, 0.25);
+}
+
+/* ── Scrollbar ──────────────────────────────────────── */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

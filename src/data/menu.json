@@ -1,0 +1,424 @@
+{
+  "categories": [
+    {
+      "id": "fruity",
+      "label": "Fruity Drinks",
+      "items": [
+        {
+          "name": "Berry Blast",
+          "subtitle": "Sweet & Tangy",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650039510-35309b47/587972693_17949020907051935_2640313358360169318_n.jpg",
+          "ingredients": [
+            { "icon": "noto:strawberry", "label": "Strawberry" },
+            { "icon": "noto:blueberries", "label": "Raspberry" },
+            { "icon": "noto:herb", "label": "Mint" }
+          ],
+          "special": "Popping Yogurt Boba",
+          "accent": "from-pink-500/10"
+        },
+        {
+          "name": "Mango Tango",
+          "subtitle": "Tropical Vibes",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650038717-ff25169c/587778897_17948806329051935_3335871558043327078_n.jpg",
+          "ingredients": [
+            { "icon": "noto:mango", "label": "Mango" },
+            { "icon": "noto:pineapple", "label": "Pineapple" },
+            { "icon": "noto:lemon", "label": "Lime" }
+          ],
+          "special": "Jelly Lychee",
+          "accent": "from-orange-500/10"
+        },
+        {
+          "name": "Exotic Dragon",
+          "subtitle": "Bold & Mysterious",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650039770-6031b308/588050995_17948806320051935_1563715518658901626_n.jpg",
+          "ingredients": [
+            { "icon": "noto:dragon-fruit", "label": "Pitaya" },
+            { "icon": "noto:kiwi-fruit", "label": "Kiwi" },
+            { "icon": "noto:honey-pot", "label": "Honey" }
+          ],
+          "special": "Rainbow Pearls",
+          "accent": "from-purple-500/10"
+        },
+        {
+          "name": "Citrus Sunrise",
+          "subtitle": "Fresh & Zesty",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650038980-ed928a4d/587835602_17949020877051935_1558254697332073013_n.jpg",
+          "ingredients": [
+            { "icon": "noto:tangerine", "label": "Orange" },
+            { "icon": "noto:lemon", "label": "Lime" },
+            { "icon": "noto:herb", "label": "Mint" }
+          ],
+          "special": "Aloe Vera Cubes",
+          "accent": "from-yellow-500/10"
+        },
+        {
+          "name": "Strawberry Sunset",
+          "subtitle": "Refreshing Punch",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650037925-78928273/587581027_17948600490051935_700928281632261685_n.jpg",
+          "ingredients": [
+            { "icon": "noto:strawberry", "label": "Strawberry" },
+            { "icon": "noto:peach", "label": "Peach" },
+            { "icon": "noto:leafy-green", "label": "Green Tea" }
+          ],
+          "special": "Crystal Boba",
+          "accent": "from-red-500/10"
+        },
+        {
+          "name": "Passion Paradise",
+          "subtitle": "Exotic Burst",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650039242-21805c08/587898058_17948806338051935_6611854227109575742_n.jpg",
+          "ingredients": [
+            { "icon": "noto:melon", "label": "Passion" },
+            { "icon": "noto:pineapple", "label": "Pineapple" },
+            { "icon": "noto:honey-pot", "label": "Agave" }
+          ],
+          "special": "Passion Fruit Seeds",
+          "accent": "from-amber-500/10"
+        },
+        {
+          "name": "Pink Lemonade",
+          "subtitle": "Summer Breeze",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650037370-af222d4f/587263878_17948600481051935_6236605183918829307_n.jpg",
+          "ingredients": [
+            { "icon": "noto:lemon", "label": "Lemon" },
+            { "icon": "noto:strawberry", "label": "Berry" },
+            { "icon": "noto:hibiscus", "label": "Hibiscus" }
+          ],
+          "special": "Popping Cherry Boba",
+          "accent": "from-fuchsia-500/10"
+        },
+        {
+          "name": "Watermelon Splash",
+          "subtitle": "Ultra Hydrating",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650038184-0f45105c/587741736_17948479572051935_1126479418882492723_n.jpg",
+          "ingredients": [
+            { "icon": "noto:watermelon", "label": "Watermelon" },
+            { "icon": "noto:coconut", "label": "Coconut" },
+            { "icon": "noto:lemon", "label": "Lime" }
+          ],
+          "special": "Coconut Jelly",
+          "accent": "from-emerald-500/10"
+        },
+        {
+          "name": "Grape Galaxy",
+          "subtitle": "Deep & Fruity",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650037639-b86d38a1/587541540_17949020889051935_3242283654760504581_n.jpg",
+          "ingredients": [
+            { "icon": "noto:grapes", "label": "Grape" },
+            { "icon": "noto:blueberries", "label": "Blueberry" },
+            { "icon": "noto:crystal-ball", "label": "Indigo Tea" }
+          ],
+          "special": "Popping Blueberry",
+          "accent": "from-indigo-500/10"
+        },
+        {
+          "name": "Tropical Dream",
+          "subtitle": "Island Magic",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650038458-a58b7ecd/587777931_17948600472051935_2425165470030797631_n.jpg",
+          "ingredients": [
+            { "icon": "noto:coconut", "label": "Coconut" },
+            { "icon": "noto:pineapple", "label": "Pineapple" },
+            { "icon": "noto:mango", "label": "Mango" }
+          ],
+          "special": "Mango Stars",
+          "accent": "from-cyan-500/10"
+        }
+      ]
+    },
+    {
+      "id": "waffles",
+      "label": "Waffles",
+      "items": [
+        {
+          "name": "Classic Bubble",
+          "subtitle": "Warm & Soft",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650769932-ab6f6a2a/568144968_17945386665051935_1734203643864876033_n.jpg",
+          "ingredients": [
+            { "icon": "noto:butter", "label": "Butter" },
+            { "icon": "noto:honey-pot", "label": "Syrup" },
+            { "icon": "noto:ice-cream", "label": "Cream" }
+          ],
+          "special": "Vanilla Infusion",
+          "accent": "from-yellow-500/10"
+        },
+        {
+          "name": "Choco-Berry",
+          "subtitle": "Sweet Sin",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650769585-1c995834/568054382_17945386695051935_2035387164790589115_n.jpg",
+          "ingredients": [
+            { "icon": "noto:chocolate-bar", "label": "Choco" },
+            { "icon": "noto:strawberry", "label": "Berry" },
+            { "icon": "noto:peanuts", "label": "Nuts" }
+          ],
+          "special": "Double Dark Choco",
+          "accent": "from-red-500/10"
+        },
+        {
+          "name": "Oreo Delight",
+          "subtitle": "Crunchy Love",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650770318-1685d837/568720021_17945386686051935_6444851295176095496_n.jpg",
+          "ingredients": [
+            { "icon": "noto:cookie", "label": "Oreo" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:ice-cream", "label": "Cream" }
+          ],
+          "special": "Cookie Crumble",
+          "accent": "from-blue-500/10"
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "Tea Drinks",
+      "items": [
+        {
+          "name": "Jasmine Pearl",
+          "subtitle": "Floral Calm",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650850012-1d8586df/573470955_17947012713051935_5637743234204156447_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Tea" },
+            { "icon": "noto:blossom", "label": "Jasmine" },
+            { "icon": "noto:honey-pot", "label": "Honey" }
+          ],
+          "special": "Premium Brew",
+          "accent": "from-green-500/10"
+        },
+        {
+          "name": "Green Zenith",
+          "subtitle": "Pure Energy",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650850296-58d0de4d/573748214_17947012722051935_1719051420547783713_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Green" },
+            { "icon": "noto:lemon", "label": "Lemon" },
+            { "icon": "noto:herb", "label": "Mint" }
+          ],
+          "special": "Zesty Finish",
+          "accent": "from-emerald-500/10"
+        },
+        {
+          "name": "Oolong Mist",
+          "subtitle": "Earthy Tone",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650850558-dcb99344/574085999_17947012737051935_3737209406438512216_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Oolong" },
+            { "icon": "noto:honey-pot", "label": "Honey" },
+            { "icon": "noto:chestnut", "label": "Pearls" }
+          ],
+          "special": "Smoky Aftertaste",
+          "accent": "from-indigo-500/10"
+        },
+        {
+          "name": "Earl Grey Star",
+          "subtitle": "Classic Bold",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650850882-88e3f2f8/574472039_17947245252051935_6680740035225035981_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Black" },
+            { "icon": "noto:orange-heart", "label": "Bergamot" },
+            { "icon": "noto:honey-pot", "label": "Sweet" }
+          ],
+          "special": "Citrus Twist",
+          "accent": "from-purple-500/10"
+        },
+        {
+          "name": "Matcha Zen",
+          "subtitle": "Meditative",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650851154-d8c1caa4/575998209_17947245261051935_6795198366807280653_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Matcha" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:bamboo", "label": "Natural" }
+          ],
+          "special": "Creamy Matcha",
+          "accent": "from-green-900/10"
+        },
+        {
+          "name": "Herbal Calm",
+          "subtitle": "Soothing",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650851421-f227d041/579619071_17947393254051935_5769659518593942074_n.jpg",
+          "ingredients": [
+            { "icon": "noto:herb", "label": "Herbal" },
+            { "icon": "noto:blossom", "label": "Camomile" },
+            { "icon": "noto:honey-pot", "label": "Syrup" }
+          ],
+          "special": "Late Night Chill",
+          "accent": "from-blue-200/10"
+        },
+        {
+          "name": "Peach Oolong",
+          "subtitle": "Sweet Orchard",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650851685-e313c9ba/579634123_17947245270051935_1719051420547783713_n.jpg",
+          "ingredients": [
+            { "icon": "noto:peach", "label": "Peach" },
+            { "icon": "noto:leafy-green", "label": "Oolong" },
+            { "icon": "noto:crystal-ball", "label": "Boba" }
+          ],
+          "special": "Fruity Brew",
+          "accent": "from-orange-300/10"
+        },
+        {
+          "name": "Lemon Zest",
+          "subtitle": "Tangy Peak",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650851954-f1bb075f/580478420_17947393269051935_578345325636584573_n.jpg",
+          "ingredients": [
+            { "icon": "noto:lemon", "label": "Lemon" },
+            { "icon": "noto:leafy-green", "label": "Tea" },
+            { "icon": "noto:herb", "label": "Mint" }
+          ],
+          "special": "Sour Punch",
+          "accent": "from-yellow-200/10"
+        },
+        {
+          "name": "Minty Fresh",
+          "subtitle": "Cooling",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774650852254-55cd68b5/581244045_17947393272051935_8992800916953602622_n.jpg",
+          "ingredients": [
+            { "icon": "noto:herb", "label": "Mint" },
+            { "icon": "noto:leafy-green", "label": "Tea" },
+            { "icon": "noto:ice", "label": "Ice" }
+          ],
+          "special": "Extreme Cool",
+          "accent": "from-blue-100/10"
+        }
+      ]
+    },
+    {
+      "id": "milky",
+      "label": "Milky Drinks",
+      "items": [
+        {
+          "name": "Classic Milky",
+          "subtitle": "Standard Gold",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651013811-112ca336/581313394_17947706742051935_4108078547485345245_n.jpg",
+          "ingredients": [
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:chestnut", "label": "Tapioca" },
+            { "icon": "noto:leafy-green", "label": "Black Tea" }
+          ],
+          "special": "Brown Sugar Base",
+          "accent": "from-indigo-900/10"
+        },
+        {
+          "name": "Velvet Taro",
+          "subtitle": "Dreamy Purple",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651014086-e9ed99ac/581417398_17948316024051935_68018195157198838_n.jpg",
+          "ingredients": [
+            { "icon": "noto:sweet-potato", "label": "Taro" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:chestnut", "label": "Tapioca" }
+          ],
+          "special": "Creamy Taro Mix",
+          "accent": "from-yellow-900/10"
+        },
+        {
+          "name": "Matcha Latte",
+          "subtitle": "Earth Ground",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651014416-635e92b5/581496452_17948107398051935_7348190805190416368_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Matcha" },
+            { "icon": "noto:glass-of-milk", "label": "Soy Milk" },
+            { "icon": "noto:chestnut", "label": "Boba" }
+          ],
+          "special": "Organic Grade",
+          "accent": "from-green-500/10"
+        },
+        {
+          "name": "Cookie Silk",
+          "subtitle": "Smooth Shake",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651014675-fbf801e8/581684257_17947706730051935_17848866195074797257_n.jpg",
+          "ingredients": [
+            { "icon": "noto:cookie", "label": "Cookies" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:honey-pot", "label": "Caramel" }
+          ],
+          "special": "Cream Cheese Foam",
+          "accent": "from-blue-200/10"
+        },
+        {
+          "name": "Caramel Cloud",
+          "subtitle": "Sweet Height",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651014936-d6548668/581927130_17948107407051935_6462777663085782011_n.jpg",
+          "ingredients": [
+            { "icon": "noto:honey-pot", "label": "Caramel" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:ice", "label": "Ice" }
+          ],
+          "special": "Salted Caramel",
+          "accent": "from-amber-900/10"
+        },
+        {
+          "name": "Vanilla Silk",
+          "subtitle": "Smoothie Pure",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651015191-a50130c5/582412585_17947706718051935_5896097899625745251_n.jpg",
+          "ingredients": [
+            { "icon": "noto:ice-cream", "label": "Vanilla" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:honey-pot", "label": "Cream" }
+          ],
+          "special": "Vanilla Bean",
+          "accent": "from-white/10"
+        },
+        {
+          "name": "Sky Latte",
+          "subtitle": "Blue Dream",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651015450-3e7d7d5c/583271381_17948316036051935_3746862432523420006_n.jpg",
+          "ingredients": [
+            { "icon": "noto:butterfly", "label": "Pea Tea" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:chestnut", "label": "Boba" }
+          ],
+          "special": "Natural Blue Color",
+          "accent": "from-blue-400/10"
+        },
+        {
+          "name": "Hazelnut Dream",
+          "subtitle": "Nutty Smooth",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651015703-85281b0a/583900313_17948107389051935_8436416876412917920_n.jpg",
+          "ingredients": [
+            { "icon": "noto:chestnut", "label": "Hazelnut" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:chocolate-bar", "label": "Choco" }
+          ],
+          "special": "Roasted Nuts",
+          "accent": "from-yellow-100/10"
+        },
+        {
+          "name": "Strawberry Milk",
+          "subtitle": "Sweet Pink",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651015971-fbea14e0/583905201_17948479563051935_6655808125276556341_n.jpg",
+          "ingredients": [
+            { "icon": "noto:strawberry", "label": "Strawberry" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:honey-pot", "label": "Syrup" }
+          ],
+          "special": "Fresh Puree",
+          "accent": "from-pink-300/10"
+        },
+        {
+          "name": "Thai Spice",
+          "subtitle": "Exotic Rich",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651016255-36bc62b9/584083448_17948316051051935_4865186204772477501_n.jpg",
+          "ingredients": [
+            { "icon": "noto:leafy-green", "label": "Thai Tea" },
+            { "icon": "noto:glass-of-milk", "label": "Condensed" },
+            { "icon": "noto:herb", "label": "Spices" }
+          ],
+          "special": "Anise & Vanilla",
+          "accent": "from-yellow-500/10"
+        },
+        {
+          "name": "Coconut Cream",
+          "subtitle": "Tropical Silk",
+          "image": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/548a04d5-5023-43c6-94ab-47a8eecf68a2/1774651016505-0e84b02e/584527224_17948479581051935_8168400463452016333_n.jpg",
+          "ingredients": [
+            { "icon": "noto:coconut", "label": "Coconut" },
+            { "icon": "noto:glass-of-milk", "label": "Milk" },
+            { "icon": "noto:chestnut", "label": "White Boba" }
+          ],
+          "special": "Roasted Coconut",
+          "accent": "from-blue-900/10"
+        }
+      ]
+    }
+  ]
+}
